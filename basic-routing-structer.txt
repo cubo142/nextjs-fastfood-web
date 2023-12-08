@@ -1,0 +1,9 @@
+app
+---page.tsx      (trang đầu tiên khi bắt đầu nextjs project)
+---layout.tsx
+---[_components] (folder này sẽ chứa các component global)
+------>component1.tsx
+------>component2.tsx
+---[folder1]
+------>page.tsx
+------>[_components] (folder này sẽ chứa component thuộc về folder 1)
