@@ -14,12 +14,16 @@ const SearchButton = () => {
 
     return (
         <div>
+
             <button
                 onClick={handleButtonClick}
                 type="button"
-                className=" transition delay-150 hover:bg-gray-400 text-black bg-gray-200 focus:outline-none font-medium rounded-lg text-sm py-2.5 text-center inline-flex items-center pr-2 justify-center w-40 sm:w-56">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-                <p className='ml-2'>Tìm kiếm</p>
+                className="px-8 py-2 bg-yellow-600 rounded-md text-white shadow-lg transform active:scale-y-75 transition-transform flex outline-none "
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+                <span className="ml-2">Tìm kiếm</span>
             </button>
             <dialog id="my_modal" className="  modal modal-top sm:modal-top lg:mx-auto lg:w-6/12">
                 <div className="modal-box p-4">
